@@ -8,7 +8,7 @@ export default function App() {
   const handleUploaded = (name) => setDocName(name)
 
   const handleReset = async () => {
-    await fetch('http://localhost:5000/api/reset', {
+    await fetch('${import.meta.env.VITE_API_URL}/api/reset', {
       method: 'POST',
       credentials: 'include'
     })
