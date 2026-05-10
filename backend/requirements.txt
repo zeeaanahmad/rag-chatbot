@@ -1,0 +1,9 @@
+flask
+flask-cors
+google-generativeai
+pdfplumber
+faiss-cpu
+numpy
+python-dotenv
+werkzeug
+gunicorn
